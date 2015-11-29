@@ -35,7 +35,7 @@
         \voiceTwo
         bes'1 | bes2. g8 aes8 |
         bes2. aes8 g8 | f1 |
-        bes2. aes8 g8 | f2. aes4 |
+        bes2. aes8 g8 | f2 r2 |
         bes2. aes8 g8 | f1 |
 
         \clef "bass"
@@ -67,7 +67,7 @@
 
       <g bes ees>8 <g bes ees> <g bes ees> <g bes ees>
       <aes bes ees>8 <aes bes ees> <aes bes ees> <aes bes ees> |
-      <bes ees f>8 <bes ees f> <bes ees f> <bes ees f>
+      <bes ees g>8 <bes ees g> <bes ees g> <bes ees g>
       <c ees f>8 <c ees f> <c ees f> <c ees f> |
 
       <g bes ees>8 <g bes ees> <g bes ees> <g bes ees>
@@ -78,7 +78,7 @@
       <g bes ees>8 <g bes ees> <g bes ees> <g bes ees>
       <aes bes ees>8 <aes bes ees> <aes bes ees> <aes bes ees> |
       <bes ees f>8 <bes ees f> <bes ees f> <bes ees f>
-      <c ees f>8 <c ees f> <c ees f> <c ees f> |
+      <c ees g>8 <c ees g> <c ees aes> <c ees aes> |
 
       <g bes ees>8 <g bes ees> <g bes ees> <g bes ees>
       <aes bes ees>8 <aes bes ees> <aes bes ees> <aes bes ees> |
