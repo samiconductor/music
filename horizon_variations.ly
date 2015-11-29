@@ -12,6 +12,8 @@
     \new Staff <<
       \key ees \major
 
+      \tempo 4 = 42
+
       \new Voice = "accent" {
         \voiceOne
         d'2. ees4 | d2. ees4 |
@@ -20,22 +22,16 @@
         d2. ees4 | <bes d>2. ees4 |
         d2. ees4 | <bes d>1 |
 
-        d,1~ | d2 ees2 |
-        d1~ | d2 ees2 |
+        d,2. ees4 | d2. ees4 |
+        d2. ees4 | d1 |
 
-        d1~ | d2 ees2 |
-        d1~ | d1 |
+        d2. ees4 | d2. ees4 |
+        d2. ees4 | d1 |
 
-        d1~ | d2 ees2 |
-        d1~ | d2 ees2 |
-
-        d1~ | d2 ees2 |
-        d1~ | d1 |
-
-        <g, bes d>1~ | <g bes d>1
+        <g, bes d>1 |
       }
 
-      \new Voice = "melody" {
+      \new Voice = "accompany" {
         \voiceTwo
         bes'1 | bes2. g8 aes8 |
         bes2. aes8 g8 | f1 |
@@ -43,25 +39,25 @@
         bes2. aes8 g8 | f1 |
 
         \clef "bass"
-        bes,8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
+        bes,16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
 
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
 
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
 
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
-        bes8 g8 bes g bes g bes g
-        bes8 aes8 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
+        bes16 g16 bes g bes g bes g
+        bes16 aes16 bes aes bes aes bes aes
       }
     >>
 
@@ -89,27 +85,27 @@
       <bes ees f>8 <bes ees f> <bes ees f> <bes ees f>
       <bes ees f>8 <bes ees f> <bes ees f> <bes ees f> |
 
-      <g, ees'>8 bes8 <g ees'> bes <g ees'> bes <g ees'> bes
-      <aes ees'>8 bes8 <aes ees'> bes <aes ees'> bes <aes ees'> bes
-      <bes f'>8 ees8 <bes f'> ees <bes f'> ees <bes f'> ees
-      <c f>8 ees8 <c f> ees <c f> ees <c f> ees
+      <g, ees'>16 bes16 <g ees'> bes <g ees'> bes <g ees'> bes
+      <aes ees'>16 bes16 <aes ees'> bes <aes ees'> bes <aes ees'> bes |
+      <bes f'>16 ees16 <bes f'> ees <bes f'> ees <bes f'> ees
+      <c f>16 ees16 <c f> ees <c f> ees <c f> ees |
 
-      <g, ees'>8 bes8 <g ees'> bes <g ees'> bes <g ees'> bes
-      <aes ees'>8 bes8 <aes ees'> bes <aes ees'> bes <aes ees'> bes
-      <bes f'>8 ees8 <bes f'> ees <bes f'> ees <bes f'> ees
-      <aes, ees'>8 bes8 <aes ees'> bes <aes ees'> bes <aes ees'> bes
+      <g, ees'>16 bes16 <g ees'> bes <g ees'> bes <g ees'> bes
+      <aes ees'>16 bes16 <aes ees'> bes <aes ees'> bes <aes ees'> bes |
+      <bes f'>16 ees16 <bes f'> ees <bes f'> ees <bes f'> ees
+      <aes, ees'>16 bes16 <aes ees'> bes <aes ees'> bes <aes ees'> bes |
 
-      <g ees'>8 bes8 <g ees'> bes <g ees'> bes <g ees'> bes
-      <aes ees'>8 bes8 <aes ees'> bes <aes ees'> bes <aes ees'> bes
-      <bes f'>8 ees8 <bes f'> ees <bes f'> ees <bes f'> ees
-      <c f>8 ees8 <c f> ees <c f> ees <c f> ees
+      <g ees'>16 bes16 <g ees'> bes <g ees'> bes <g ees'> bes
+      <aes ees'>16 bes16 <aes ees'> bes <aes ees'> bes <aes ees'> bes |
+      <bes f'>16 ees16 <bes f'> ees <bes f'> ees <bes f'> ees
+      <c f>16 ees16 <c f> ees <c f> ees <c f> ees |
 
-      <g, ees'>8 bes8 <g ees'> bes <g ees'> bes <g ees'> bes
-      <aes ees'>8 bes8 <aes ees'> bes <aes ees'> bes <aes ees'> bes
-      <bes f'>8 ees8 <bes f'> ees <bes f'> ees <bes f'> ees
-      <aes, ees'>8 bes8 <aes ees'> bes <aes ees'> bes <aes ees'> bes
+      <g, ees'>16 bes16 <g ees'> bes <g ees'> bes <g ees'> bes
+      <aes ees'>16 bes16 <aes ees'> bes <aes ees'> bes <aes ees'> bes |
+      <bes f'>16 ees16 <bes f'> ees <bes f'> ees <bes f'> ees
+      <aes, ees'>16 bes16 <aes ees'> bes <aes ees'> bes <aes ees'> bes |
 
-      <ees, bes'>1~ | <ees bes'>1
+      <ees, bes'>1 |
     }
   >>
 }
